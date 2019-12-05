@@ -26,7 +26,20 @@ input{
     text-align: center;
     width: 25em;
     height: 2em;
+    border-radius: 8ex;
+    
 }
 .topnav{
     text-align: center;
+    }
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    margin-left: 500;
+    margin-right: ;
 }
