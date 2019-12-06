@@ -1,45 +1,56 @@
-.bottom {  
-    
-    justify-content: space-between;
-    flex-direction: row-reverse;
-    color: blue;
-    font-family: Arial, Helvetica, sans-serif;
+ul{
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-.leto {
-    display: flex;
-    flex-direction: row-reverse;
-    padding: 16px;
-       
-}
-
-.xx {
-    padding: 6px;
-}
-
-.logo_gg {
-    text-align: center;
-}
-
-input{
+.dots{
+    padding-top: 20px;
     align-self: center;
-    text-align: center;
-    width: 25em;
-    height: 2em;
-    border-radius: 8ex;
-    
-}
-.topnav{
-    text-align: center;
-    }
 
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-items: center;
+}
+
+.login{
+    background-color: rgb(99, 99, 218);
+    color: white;
+    padding: 10px 10px 10px 10px;
+
+}
+
+.login a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.login a:hover{
+    font-weight: bold;
+}
+
+.hover a{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.hover{
+    text-align: center;
+}
+
+.hover a:hover {
+    font-weight: bold;
+    font-size:20px;
+}
+
+main img{
+    width: 300px;
+}
+
+p{
+    text-align: center;
+}
+
+main input{
+    border-radius: 8ex;
     position: relative;
-    margin-left: 500;
-    margin-right: ;
+    
 }
