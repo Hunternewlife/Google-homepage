@@ -1,1 +1,1 @@
-Working on it, I am so confused in some of the steps and just wow about using the elememnts. 
+For me it was really hard to make all of the items fix in their sites however it was fun learn how to code 

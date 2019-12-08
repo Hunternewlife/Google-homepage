@@ -1,56 +1,154 @@
-ul{
-    text-align: right;
-    font-family: 'Courier New', Courier, monospace;
+* { 
+    box-sizing: border-box;
+  }
+
+html{
+    height: 100%;
 }
 
-.dots{
-    padding-top: 20px;
-    align-self: center;
 
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	background: #ffffff; 	
+    line-height: 1.5em;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
 }
 
-.login{
-    background-color: rgb(99, 99, 218);
-    color: white;
-    padding: 10px 10px 10px 10px;
-
+header{
+    height: 40px;
+    flex: 0 0 auto;
 }
 
-.login a{
-    color: white;
-    text-align: center;
+header nav ul{
+    margin: 9px;
+    padding: 0;
+    padding-top: 10px;
+    padding-right: 10px;
+    float: right;
+    display: block; 
+    
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 16px;
+}
+
+header nav ul li a {
     text-decoration: none;
-}
-
-.login a:hover{
-    font-weight: bold;
-}
-
-.hover a{
     color: black;
+}
+
+header nav ul li a:hover{
+    text-decoration: underline;
+}
+
+main{    
+    padding-top: 7%;
+    flex: 1 0 auto;
+}
+
+main div p img{    
+    width: 272px;
     text-align: center;
-    text-decoration: none;
-}
 
-.hover{
-    text-align: center;
-}
-
-.hover a:hover {
-    font-weight: bold;
-    font-size:20px;
-}
-
-main img{
-    width: 300px;
 }
 
 p{
     text-align: center;
 }
 
-main input{
+.searchbar{
+    text-align: center;
     border-radius: 8ex;
+}
+
+main div input{
+    border-radius: 8ex;
+    height: 38px;
+    width: 510px;
+    border-style: ridge;
+    box-shadow: 5px 5px;
+        
+}
+
+.inside{
     position: relative;
+    left: 2em;
+    top: 2px;
+}
+
+.outside{
+    position: relative;
+    right: 2em;
+    top: 2px;
+}
+
+.contenedor{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
     
+}
+
+.hijo1, .hijo2{
+    border-radius: 1ex;
+    width: 170px;
+    height: 25px;
+    margin-right: 20px;
+    background-color: rgb(226, 226, 226);
+    color: black;
+    text-align: center;
+    text padding-top: 10px;
+    
+    
+}
+
+.hijo1 a, .hijo2 a{
+    text-decoration: none;
+    
+}
+
+
+ 
+ footer{
+    
+    flex: 0 0 auto;
+ }
+
+.colombia{
+    display: block;
+    background-color:  rgb(226, 226, 226);
+    border: rgb(194, 194, 194) 1px solid;
+}
+
+.Innlist{
+    display: block;
+    background-color: rgb(226, 226, 226);
+
+}
+
+.Innlist a{
+    padding-right: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.Innlist a:hover{
+    text-decoration: underline;
+}
+
+.xx{
+    text-align: right;
+}
+
+.sep{
+    padding-left: 75em;    
 }
